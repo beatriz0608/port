@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <!-- Link para carregar FontAwesome -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Beatriz Silva | Portfólio</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <header>
+    <div class="container">
+      <h1 class="logo">Portfólio</h1>
+      <nav class="menu">
+        <a href="#inicio">Início</a>
+        <a href="#sobre">Sobre</a>
+        <a href="#projetos">Projetos</a>
+        <a href="#habilidades">Habilidades</a>
+        <a href="#contato">Contato</a>
+      </nav>
+    </div>
+  </header>
+
+  <section id="inicio" class="hero">
+    <div class="container hero-flex">
+      <div class="hero-left">
+        <img src="img/e82e3789-7e1c-4224-8338-d1ae5ddfc4aa.jfif" alt="Beatriz Silva" class="hero-img">
+      </div>
+      <div class="hero-right">
+        <h2>Olá, sou a Beatriz Silva</h2>
+        <p>Jovem profissional com energia e paixão por desenvolvimento pessoal e profissional.</p>
+        <a href="#sobre" class="btn">Conheça mais</a>
+      </div>
+    </div>
+  </section>
+
+  <section id="sobre">
+    <div class="container">
+      <h2>Sobre Mim</h2>
+      <p>
+        <strong>Beatriz Silva</strong>, 16 anos, residente em Mogi das Cruzes/SP.<br><br>
+        Sou uma jovem profissional em desenvolvimento, com perfil dinâmico, excelente capacidade de comunicação e facilidade para me relacionar em diferentes ambientes. Minha energia e entusiasmo são direcionados para:
+      </p>
+      <ul>
+        <li><strong>Trabalho em equipe:</strong> Atuo com colaboração e sinergia, promovendo um clima positivo.</li>
+        <li><strong>Comunicação eficaz:</strong> Habilidade em articular ideias com clareza e adaptar minha linguagem a diferentes públicos.</li>
+        <li><strong>Proatividade:</strong> Iniciativa para resolver desafios e agilidade em aprender novas competências.</li>
+      </ul>
+      <p>
+        Acredito que minha disposição e capacidade de conexão podem agregar valor em áreas como atendimento ao público, vendas, eventos ou qualquer função que demande interação e dinamismo.<br><br>
+        Estou em busca de oportunidades para desenvolver minhas habilidades profissionais, contribuir com minha vitalidade e crescer junto a uma equipe que valorize o potencial jovem.
+      </p>
+    </div>
+  </section>
+
+  <section id="projetos">
+    <div class="container">
+      <h2>Projetos</h2>
+      <div class="cards">
+        <div class="card">
+          <h3>Projeto 1</h3>
+          <a class="p1" href="https://site-react-pi.vercel.app/">Clique aqui</a>
+          <p>Site venda de produtos.</p>
+        </div>
+        <div class="card">
+          <h3>Projeto 2</h3>
+          <a class="p1" href="https://beatriz0608.github.io/amordaminhavida/">Clique aqui</a>
+          <p>Site pedindo pro ex voltar.</p>
+        </div>
+        <div class="card">
+          <h3>Projeto 3</h3>
+          <a class="p1" href="https://beatriz0608.github.io/passos/">Clique aqui</a>
+          <p>Site venda de roupas.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="habilidades">
+    <div class="container">
+      <h2>Habilidades</h2>
+      <ul class="skills">
+        <li>Comunicação</li>
+        <li>Trabalho em Equipe</li>
+        <li>Atendimento ao Público</li>
+        <li>Organização</li>
+        <li>Aprendizado Rápido</li>
+      </ul>
+    </div>
+  </section>
+
+  <section id="contato">
+    <h2>Contato</h2>
+    <center>
+    <p>Fique à vontade para entrar em contato comigo através de um dos canais abaixo!</p>
+    
+    <a href="mailto:beatrizsud08@gmail.com" title="Gmail">
+        <img src="https://img.shields.io/badge/-Gmail-FF0000?style=flat-square&labelColor=FF0000&logo=gmail&logoColor=white" alt="Gmail"/>
+      </a>
+      <a href="https://wa.me/5511955893673?text=Ol%C3%A1%20" title="WhatsApp">
+        <img src="https://img.shields.io/badge/-WhatsApp-25d366?style=flat-square&labelColor=25d366&logo=whatsapp&logoColor=white" alt="WhatsApp"/>
+      </a>
+      <a href="https://www.instagram.com/beatriz_santox20" title="Instagram">
+        <img src="https://img.shields.io/badge/-Instagram-DF0174?style=flat-square&labelColor=DF0174&logo=instagram&logoColor=white" alt="Instagram"/>
+      </a>
+    </center>
+    </div>
+</section>
+
+
+  <footer>
+    <p>&copy; 2025 Beatriz Silva • Portfólio Profissional</p>
+  </footer>
+
+  <script>
+    // Scroll suave
+    document.querySelectorAll('a[href^="#"]').forEach(link => {
+      link.addEventListener('click', e => {
+        e.preventDefault();
+        document.querySelector(link.getAttribute('href')).scrollIntoView({
+          behavior: 'smooth'
+        });
+      });
+    });
+  </script>
+
+</body>
+</html>
